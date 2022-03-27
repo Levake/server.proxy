@@ -3,18 +3,9 @@
     <meta charset="utf-8">
   </head>
   <body>
-    <div id="result">
-        $(document).ready( function(){
-          $.ajax({
-            method: "GET",
-            url: "https://yandex.ru/internet",
-            success: function(data){
-              var content = data;
-              $("#result").html(content);
-            }
-          });
-        });
+    <div id="result">Testing name
     </div>
+    <iframe src="https://yandex.ru/internet">
     <script   src="https://code.jquery.com/jquery-3.1.0.min.js"   integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s="   crossorigin="anonymous"></script>
     <script>
         $(document).ready( function(){
